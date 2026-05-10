@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.section-title {
+  margin-top: 0;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.user-option {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.drink-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.drink-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.drink-name {
+  font-weight: bold;
+}
+
+.drink-subtitle {
+  font-size: 12px;
+  color: #666;
+}
+
+.counter {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.counter button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.counter input {
+  width: 50px;
+  text-align: center;
+}
+
+.actions {
+  text-align: center;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.submit-btn:hover {
+  background: #1b5e20;
+}
+
+.ghost-btn {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: 1px solid #aaa;
+  background: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.status {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.status.ok {
+  color: green;
+}
+
+.status.error {
+  color: red;
+}
+
+.loading {
+  color: #777;
+  font-style: italic;
+}
